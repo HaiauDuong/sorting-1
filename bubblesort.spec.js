@@ -22,10 +22,11 @@ describe('Bubble Sort', function(){
 	});
 });
 
-beforeAll(function () {
-  spyOn(bubbleSort, 'swap').and.callThrough(); // replace existing `tootsiepop['lick']` method
-});
-it('getting to the center of tootsiepop involves exactly three licks', function () {
-  bubbleSort([15, 7, 4, 1, 11, 0]).swap();
-  expect(bubbleSort([15, 7, 4, 1, 11, 0]).swap().calls.count()).toEqual(12);
-});
+// beforeAll(function () {
+// 	let arr = [15, 7, 4, 1, 11, 0]
+//   spyOn(arr, 'swap').and.callThrough(); // replace existing `tootsiepop['lick']` method
+// });
+// it('getting to the center of tootsiepop involves exactly three licks', function () {
+//   arr.bubbleSort();
+//   expect(arr.swap.calls.count()).toEqual(12);
+// });

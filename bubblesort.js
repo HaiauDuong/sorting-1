@@ -16,6 +16,6 @@ function bubbleSort(array) {
 			}
 		}
 	}
-	console.log(swapCounter)
+	// console.log(swapCounter)
 	return array;
 }
